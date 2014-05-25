@@ -288,6 +288,10 @@
                       }
                     }
                   }
+                },
+                "4": {
+                  "title": "Medication Alert",
+                  "id": 57
                 }
               },
               "attr": {
@@ -311,7 +315,7 @@
                     "style": {},
                     "attachment": {
                       "contentType": "text/html",
-                      "content": "192.168.1.1<div>Python-Based Home Automation using Tomato Router-<br><div>&nbsp; https://github.com/balloob/home-assistant<br></div></div>"
+                      "content": "192.168.1.1"
                     }
                   }
                 },
