@@ -1,1 +1,138 @@
-<map version="0.7.1"><node ID="1" TEXT="&#x20;Long&#x20;Term&#x20;Goals"><node ID="9" TEXT="Producitivity"><node ID="10" TEXT="Quantified&#x20;Life"><node ID="46" TEXT="Sleep&#x20;As&#x20;Android"></node><node ID="47" TEXT="Mindwave"></node></node><node ID="11" TEXT="Home&#x20;Automation"><node ID="15" TEXT="Platforms"><node ID="16" TEXT="OpenHab"></node><node ID="17" TEXT="hOmA"></node><node ID="18" TEXT="ThingSystem"></node><node ID="19" TEXT="Domotica"></node></node><node ID="30" TEXT="Appliances"><node ID="31" TEXT="Coffee&#x20;Maker"></node><node ID="32" TEXT="Lighting"><node ID="37" TEXT="MiLight/UDP"><node ID="33" TEXT="Living&#x20;Room&#x20;Lamp"></node></node><node ID="35" TEXT="DIY"><node ID="34" TEXT="Visualight"></node><node ID="38" TEXT="Piranha&#x20;Super&#x20;Flux&#x20;"></node></node></node><node ID="39" TEXT="TV"><node ID="40" TEXT="OUYA"><node ID="41" TEXT="XBMC"></node></node><node ID="42" TEXT="Chromecast"></node><node ID="43" TEXT="GoogleTV"><node ID="44" TEXT="Revue"></node><node ID="45" TEXT="HiSense&#x20;Pulse"></node></node></node><node ID="57" TEXT="Medication&#x20;Alert"></node></node><node ID="54" TEXT="Dash"><node ID="53" TEXT="Tomato&#x20;Router"></node><node ID="48" TEXT="Morning&#x20;Assistant"></node><node ID="21" TEXT="Jasper"></node></node></node><node ID="12" TEXT="Coding&#x20;Goals"><node ID="23" TEXT="Node.js"><node ID="24" TEXT="Node-RED"></node></node><node ID="26" TEXT="MQTT"></node></node><node ID="22" TEXT="Ghost&#x20;Blogging"></node><node ID="55" TEXT="Indoor&#x20;Gardening"><node ID="56" TEXT="Iowa-Aquaponics"></node></node></node><node ID="8" TEXT="Civic&#x20;Hacking"><node ID="4" TEXT="Education"><node ID="5" TEXT="Robotics&#x20;Class"></node><node ID="6" TEXT="Makerspace"></node><node ID="7" TEXT="Citizen&#x20;Science"></node></node><node ID="13" TEXT="Transportation"><node ID="27" TEXT="openvehicletracker.org"></node><node ID="28" TEXT="New&#x20;England&#x20;Rail&#x20;Map"></node><node ID="29" TEXT="Bath&#x20;CityBus"></node><node ID="49" TEXT="eBike"></node><node ID="50" TEXT="Amtrak&#x20;App"></node><node ID="51" TEXT="Ford&#x20;Sync"><node ID="52" TEXT="OpenXC"></node></node></node><node ID="14" TEXT="Diplomacy"></node></node></node></map>
+{
+  "title": "Quantified Life",
+  "ideas": {
+    "1": {
+      "title": "Sleep As Android",
+      "ideas": {
+        "1": {
+          "title": "Functions",
+          "ideas": {
+            "1": {
+              "title": "Smart Alarm",
+              "attr": {
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "<ul>\n      <li>\n        7:25AM weekdays\n      </li>\n      <li>\n        8:00AM Weekends\n      </li>\n    </ul><p>\n      <a href=\"http://sites.google.com/site/sleepasandroid/doc/alarm\">https://sites.google.com/site/sleepasandroid/doc/alarm</a>\n    </p>"
+                },
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "Triggers",
+                  "ideas": {
+                    "1": {
+                      "title": "Smartlight",
+                      "attr": {
+                        "attachment": {
+                          "contentType": "text/html",
+                          "content": "<p>\n      http://www.limitlessled.com/dev/\n    </p><p>\n      /home/andrew/Home Automation/API Documentation/LimitlessLED\n    </p>"
+                        },
+                        "style": {}
+                      },
+                      "id": 6
+                    },
+                    "2": {
+                      "title": "Medication Alert Light",
+                      "ideas": {
+                        "1": {
+                          "title": "",
+                          "id": 8
+                        }
+                      },
+                      "id": 7
+                    }
+                  },
+                  "id": 5
+                }
+              },
+              "id": 4
+            }
+          },
+          "id": 3
+        },
+        "2": {
+          "title": "Data",
+          "ideas": {
+            "1": {
+              "title": "SleepCloud",
+              "id": 10
+            },
+            "2": {
+              "title": "Google Drive",
+              "id": 11
+            }
+          },
+          "id": 9
+        }
+      },
+      "id": 2
+    },
+    "2": {
+      "title": "Mindwave",
+      "id": 12
+    },
+    "3": {
+      "title": "Medication Tracker",
+      "ideas": {
+        "1": {
+          "title": "Data",
+          "ideas": {
+            "1": {
+              "title": "Google Drive",
+              "id": 15
+            },
+            "2": {
+              "title": "Med Logging Apps",
+              "ideas": {
+                "1": {
+                  "title": "Dosecast",
+                  "id": 17
+                },
+                "2": {
+                  "title": "iBlueButton",
+                  "id": 18
+                },
+                "3": {
+                  "title": "trackmymedicalrecords.com",
+                  "id": 19
+                },
+                "4": {
+                  "title": "Rememberitnow",
+                  "attr": {
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "<p>\n      https://app.rememberitnow.com/member/araner1/\n    </p>"
+                    },
+                    "style": {}
+                  },
+                  "id": 20
+                }
+              },
+              "id": 16
+            }
+          },
+          "id": 14
+        },
+        "2": {
+          "title": "Functions",
+          "ideas": {
+            "1": {
+              "title": "WhatPills",
+              "ideas": {
+                "1": {
+                  "title": "NFC",
+                  "id": 23
+                }
+              },
+              "id": 22
+            }
+          },
+          "id": 21
+        }
+      },
+      "id": 13
+    }
+  },
+  "formatVersion": 2,
+  "id": 1
+}
